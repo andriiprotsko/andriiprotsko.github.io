@@ -3,13 +3,10 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires;
 }
 
-
-
-function sokolevel01() {
-
 const levvel = window.localStorage.getItem("level");
 alert(`Це рівень ${level}`);
-    
+
+function sokolevel01() {  
 (function() {var levelData = ["  www   ","  wpw   ","  w wwww","wwwc cpw","wp cywww","wwwwcw  ","   wpw  ","   www  "], level = [[], [] ,[] ,[] ,[] ,[] ,[] ,[]];
 var x, y, dx, dy, cell, fwdCell, fwd2cell, level01 = document.getElementById('level01');
 for (var n = 0; n < levelData.length; n++)
@@ -39,6 +36,11 @@ window.addEventListener('keydown', function(e) {
     for (var n = 0; n < level.length; n++)
         for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
+    
+    
+const levvel = window.localStorage.getItem("level");
+alert(`Це рівень ${level}`);
+    
 alert('Перший рівень успішно пройдений!');
 setCookie('riven', '02s768gb.html');
 window.localStorage.setItem("level", "02"); 
