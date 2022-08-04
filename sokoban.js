@@ -3,6 +3,9 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires;
 }
 
+const levvel = window.localStorage.getItem("level");
+alert(`Це рівень ${level}`);
+
 function sokolevel01() {
 (function() {var levelData = ["  www   ","  wpw   ","  w wwww","wwwc cpw","wp cywww","wwwwcw  ","   wpw  ","   www  "], level = [[], [] ,[] ,[] ,[] ,[] ,[] ,[]];
 var x, y, dx, dy, cell, fwdCell, fwd2cell, level01 = document.getElementById('level01');
