@@ -8,6 +8,10 @@
 .a {background: url(img/placedbox.jpg);}
 .y, .Y {background: url(img/you.png);}
 
+@font-face {
+ font-family: sokofont;
+ src=url (sokofont.ttf); } 
+
 html, body, #page {
 height: 100%;
 width: 100%;
@@ -16,7 +20,7 @@ padding: 0; }
 
 input {
 border: 0px;
-font-family: 'Open Sans Condensed';
+font-family: 'sokofont';
 font-size: 40px;
 color: #333;
 background: #ffffff; }
