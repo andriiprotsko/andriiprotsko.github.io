@@ -3,11 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-16">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href='OpenSans-CondLight.ttf' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="sokoban.js"></script>
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
+<style>
+@font-face {
+ font-family: sokofont;
+ src=url (sokofont.ttf);
+} 
+</style> 
+ 
 <script>
 var allcookies = document.cookie;
 var divId = "level"+allcookies.substring(6,8);
