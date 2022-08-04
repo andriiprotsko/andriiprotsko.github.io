@@ -35,6 +35,7 @@ window.addEventListener('keydown', function(e) {
             if (level[n][m].className == 'c') return;
 alert('Перший рівень успішно пройдений!');
 setCookie('riven', '02s768gb.html');
+window.localStorage.setItem("level", "02"); 
 window.location.reload(false);
 }); })(); }
 
@@ -70,6 +71,7 @@ window.addEventListener('keydown', function(e) {
             if (level[n][m].className == 'c') return;
 alert('Другий рівень позаду!');
 setCookie('riven', '03v46htu.html');
+window.localStorage.setItem("level", "03"); 
 window.location.reload(false);
 }); })(); }
 
