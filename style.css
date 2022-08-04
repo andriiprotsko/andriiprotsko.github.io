@@ -38,7 +38,7 @@ background: #ffffff; }
 
 table.head {
 background-color: #292929;
-font-family: 'Open Sans Condensed';
+font-family: 'sokofont';
 font-size: 40px;
 color: #f0f0f0; }
 
@@ -48,13 +48,13 @@ text-align:center;
 vertical-align:top; }
 
 td.tdlev {
-font-family: 'Open Sans Condensed';
+font-family: 'sokofont';
 font-size: 40px;
 color: #ccc; }
 
 span.riv {
 padding-left:76px;
-font-family: 'Open Sans Condensed';
+font-family: 'sokofont';
 font-size: 23px;
 color: #f0f0f0; }
 
